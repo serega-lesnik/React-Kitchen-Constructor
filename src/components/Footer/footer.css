@@ -1,0 +1,27 @@
+.footer {
+	background-color: #f8f8f8;
+	border: solid 1px #e9e9e9;
+}
+.footer-step {
+	border: solid 1px #e9e9e9;
+	flex-grow: 1;
+	cursor: pointer;
+}
+
+.footer-step-text {
+	padding: 16px;
+}
+
+.footer-step .divider {
+	height: 5px;
+	background-color: #ff8183;
+}
+
+.footer-step.done .divider {
+	background-color: #00b6ff;
+}
+
+.footer-step.selected {
+	background-color: #00b6ff;
+	color: #fcfdfd;
+}

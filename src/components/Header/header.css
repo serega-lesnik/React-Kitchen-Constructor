@@ -1,0 +1,7 @@
+.header {
+	background-color: #1a1a1a;
+	color: #767675;
+}
+.header-logo {
+	flex-grow: 1;
+}

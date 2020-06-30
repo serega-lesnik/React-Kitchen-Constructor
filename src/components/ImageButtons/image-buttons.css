@@ -1,0 +1,18 @@
+.image-btn {
+	position: relative;
+}
+
+.image-btn-checkbox {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	cursor: pointer;
+}
+
+.image-btn-checkbox.checked {
+	top: 8px;
+	right: 8px;
+	left: auto;
+}
